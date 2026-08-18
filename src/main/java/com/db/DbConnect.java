@@ -1,0 +1,3 @@
+package com.db;
+import java.io.InputStream;import java.sql.*;import java.util.Properties;
+public class DbConnect{private static String u,n,p;static{try{Properties x=new Properties();InputStream i=DbConnect.class.getClassLoader().getResourceAsStream("db.properties");if(i==null)throw new RuntimeException("Copy db.properties.example to db.properties");x.load(i);u=x.getProperty("db.url");n=x.getProperty("db.username");p=x.getProperty("db.password");Class.forName("com.mysql.cj.jdbc.Driver");}catch(Exception e){throw new RuntimeException(e);}}public static Connection getConn(){try{return DriverManager.getConnection(u,n,p);}catch(Exception e){throw new RuntimeException(e);}}}

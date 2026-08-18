@@ -1,0 +1,1 @@
+package com.entity;public class Appointment{public int id,userId,doctorId,age;public String patientName,gender,appointmentDate,email,phone,disease,address,status;}

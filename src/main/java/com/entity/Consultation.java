@@ -1,0 +1,1 @@
+package com.entity;public class Consultation{public int id,userId,doctorId;public String requestedDate,mode,reason,status,meetingLink,doctorNotes,prescription;}

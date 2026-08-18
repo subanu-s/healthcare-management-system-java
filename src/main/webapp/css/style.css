@@ -1,0 +1,1 @@
+:root{--b:#2ec8a6;--bg:#f5f8f8}body{font-family:Arial,sans-serif;background:var(--bg)}.hero{padding:80px 0;background:linear-gradient(135deg,#eafaf6,#fff)}.brand{color:var(--b)}.card{border:0;border-radius:16px;box-shadow:0 8px 24px rgba(0,0,0,.08)}.btn-brand{background:var(--b);color:#fff}.btn-brand:hover{background:#25b394;color:#fff}.table{background:white}
