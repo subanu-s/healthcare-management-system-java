@@ -1,1 +1,60 @@
-package com.entity;public class User{private int id;private String fullName,email,password;public User(){}public User(String n,String e,String p){fullName=n;email=e;password=p;}public int getId(){return id;}public void setId(int v){id=v;}public String getFullName(){return fullName;}public void setFullName(String v){fullName=v;}public String getEmail(){return email;}public void setEmail(String v){email=v;}public String getPassword(){return password;}public void setPassword(String v){password=v;}}
+package com.entity;
+
+public class User {
+
+    private int id;
+    private String fullName;
+    private String email;
+    private String password;
+    private String phone;
+
+    public User() {}
+
+    public User(String fullName, String email,
+                String password, String phone) {
+        this.fullName = fullName;
+        this.email = email;
+        this.password = password;
+        this.phone = phone;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getFullName() {
+        return fullName;
+    }
+
+    public void setFullName(String fullName) {
+        this.fullName = fullName;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+}
